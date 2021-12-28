@@ -1,0 +1,143 @@
+﻿<!-- I pledge my honor that I have abided by the Stevens Honor System. -->
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="Script1.js"></script>
+
+</head>
+<body>
+
+<h1>Student Isabella Stone's Schedule</h1>
+<ul>
+    <div>
+        <li><form><input type = "color" id = "PEP111color"/><input type = "button" value="Click to update color" onclick="pep111Color()"/><input type = "checkbox" onclick="pep111()"/><u>PEP111</u> Mechanics </form></li>
+        <li><form><input type = "color" id = "CS115color"/><input type = "button" value="Click to update color" onclick="cs115Color()"/><input type = "checkbox" onclick="cs115()"/><u>CS115</u> Introduction to Computer Science </form></li>
+        <li><form><input type = "color" id = "CAL103color"/><input type = "button" value="Click to update color" onclick="cal103Color()"/><input type = "checkbox" onclick="cal103()"/><u>CAL103</u> Writing and Communications Colloquium</form></li>
+        <li><form><input type = "color" id = "CS146color"/><input type = "button" value="Click to update color" onclick="cs146Color()"/><input type = "checkbox" onclick="cs146()"/><u>CS146</u> Introduction to Web Programming and Project Development</form></li>
+        <li><form><input type = "color" id = "MA121color"/><input type = "button" value="Click to update color" onclick="ma121Color()"/><input type = "checkbox" onclick="ma121()"/><u>MA121</u> Differential Calculus</form></li>
+    </div>
+</ul> 
+
+<table border="1px solid black" width="400px">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>8 AM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9 AM</td>
+      <td class="PEP111" id="pep111lec"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="PEP111" id="pep111lec"></td>
+    </tr>
+    <tr>
+      <td>10 AM</td>
+      <td class="CS115" id="cs115lec"></td>
+      <td></td>
+      <td class="CS115" id="cs115lec"></td>
+      <td></td>
+      <td class="CS115" id="cs115lec"></td>
+    </tr>
+    <tr>
+      <td>11 AM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12 PM</td>
+      <td></td>
+      <td rowspan=2 class="CAL103" id="cal103lec"></td>
+      <td></td>
+      <td rowspan=2 class="CAL103" id="cal103lec"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1 PM</td>
+      <td class="MA121" id="ma121lec"></td>
+      <td class="MA121" id="ma121lec"></td>
+      <td class="MA121" id="ma121lec"></td>
+    </tr>
+    <tr>
+      <td>2 PM</td>
+      <td></td>
+      <td class="MA121" id="ma121lec"></td>
+      <td></td>
+      <td class="MA121" id="ma121lec"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3 PM</td>
+      <td></td>
+      <td rowspan=3 class="CS146" id="cs146lec"></td>
+      <td></td>
+      <td rowspan=3 class="CS146" id="cs146lec"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4 PM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5 PM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6 PM</td>
+      <td></td>
+      <td></td>
+      <td rowspan=3 class="CS115" id="cs115lec"></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7 PM</td>
+      <td></td>
+      <td rowspan=2 class="PEP111" id="pep111lec"></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8 PM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>9 PM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>
